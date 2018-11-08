@@ -12,7 +12,7 @@ def flouck ():
         a.append([])
         for j in range(x):
             a[i].append(random.randint(-1,5))
-            print(a[i][j], end=' ')
+            print("%2d " % a[i][j], end=' ')
             if a[i][j] < 0 :
                 ab = True
         print()
@@ -40,4 +40,3 @@ def maximum_1 ():
     print('Максимум среди сумм элементов диагоналей, параллельных главной диагонали матрицы: ',mx)
 flouck()
 maximum_1()
-
