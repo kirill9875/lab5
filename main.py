@@ -28,8 +28,8 @@ def maximum_1 ():
         s1 = 0
         j = 0
         while i + j < x :
-            s += a[j][(i + j) % x ]
-            s1 += a[(i + j) % x][j]
+            s += a[j][i + j]
+            s1 += a[i + j][j]
             j+=1
         # print('s =',s)
         # print('s1 =', s1)
